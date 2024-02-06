@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natty's Niching Network</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Natty's Niching Network</h1>
+        <p>Your Gateway to Niche Services</p>
+    </header>
+
+    <section>
+        <p>Welcome to Natty's Niching Network! We connect clients with specialized and niche services tailored to their unique needs.</p>
+
+        <p>Whether you're a service provider looking to showcase your niche or a client in search of a specific service, you're in the right place!</p>
+
+        <p>Ready to find or offer a niche service? Fill out the form below:</p>
+
+        <form action="/submit" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="service">Type of Service:</label>
+            <input type="text" id="service" name="service" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</body>
+</html>
